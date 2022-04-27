@@ -16,6 +16,11 @@ class ViewController: UIViewController
     
     @IBOutlet weak var playstationImage: UIImageView!
     
+    var ps = ""
+    
+    var xbox = "test 1"
+    
+    var pc = "test 2"
     
     @IBOutlet weak var textView: UITextView!
     
@@ -24,14 +29,13 @@ class ViewController: UIViewController
         switch segmentOutlet.selectedSegmentIndex
         {
         case 0:
-            textView.text = "Playstation"
+            textView.text = ps
         case 1:
-            textView.text = "Xbox"
+            textView.text = xbox
         case 2:
-            textView.text = "PC"
+            textView.text = pc
             
         
-            
             
             
             
