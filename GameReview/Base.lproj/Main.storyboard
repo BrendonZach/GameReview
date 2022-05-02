@@ -33,7 +33,7 @@
                                 </connections>
                             </segmentedControl>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Playstation" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vl3-b3-zxb">
-                                <rect key="frame" x="94" y="499" width="240" height="128"/>
+                                <rect key="frame" x="94" y="499" width="240" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -73,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="69"/>
+            <point key="canvasLocation" x="19.626168224299064" y="68.682505399568043"/>
         </scene>
     </scenes>
     <resources>

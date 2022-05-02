@@ -16,8 +16,7 @@ class ViewController: UIViewController
     
     @IBOutlet weak var playstationImage: UIImageView!
     
-    var ps = ""
-    
+    var ps = "The playstation was first released on December 3rd 1994, this was the original release date of the playtation 1. A reason that this console was such a important thing is that it was one of the like biggest changes of video games and it was really kind of ground breaking and from that point it just kept growing."
     var xbox = "test 1"
     
     var pc = "test 2"
