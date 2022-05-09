@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="oXz-Jr-L8Q">
-                                <rect key="frame" x="83" y="361" width="263" height="32"/>
+                                <rect key="frame" x="83" y="218" width="263" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <segments>
@@ -33,29 +33,53 @@
                                 </connections>
                             </segmentedControl>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Playstation" translatesAutoresizingMaskIntoConstraints="NO" id="AF2-rN-S7Q">
-                                <rect key="frame" x="94" y="135" width="240" height="128"/>
+                                <rect key="frame" x="94" y="82" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Xbox" translatesAutoresizingMaskIntoConstraints="NO" id="qjI-87-66I">
-                                <rect key="frame" x="94" y="135" width="240" height="128"/>
+                                <rect key="frame" x="94" y="82" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PC" translatesAutoresizingMaskIntoConstraints="NO" id="3TZ-mG-x5s">
-                                <rect key="frame" x="94" y="135" width="240" height="128"/>
+                                <rect key="frame" x="94" y="82" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brand" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHP-8G-3X4">
-                                <rect key="frame" x="182" y="58" width="64" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brand Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHP-8G-3X4">
+                                <rect key="frame" x="146" y="44" width="136" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vl3-b3-zxb">
-                                <rect key="frame" x="94" y="423" width="240" height="245"/>
+                                <rect key="frame" x="94" y="257" width="240" height="245"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">The playstation was first released on December 3rd 1994, this was the original release date of the playtation 1. A reason that this console was such a important thing is that it was one of the like biggest changes of video games and it was really kind of ground breaking and from that point it just kept growing</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ww1-69-o7o">
+                                <rect key="frame" x="83" y="518" width="263" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <segments>
+                                    <segment title="Playstation"/>
+                                    <segment title="Xbox"/>
+                                    <segment title="PC"/>
+                                </segments>
+                                <color key="tintColor" systemColor="tintColor"/>
+                                <color key="selectedSegmentTintColor" systemColor="systemGreenColor"/>
+                                <connections>
+                                    <action selector="gameAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="xjk-ns-aRb"/>
+                                </connections>
+                            </segmentedControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d10-pq-wME">
+                                <rect key="frame" x="10" y="557" width="408" height="335"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Here I am going to be discussing a couple playstation games, mainly the playstation exclusive games such as Spiderman, and bloodborne, Spiderman is a very popular game with over 20 million units being sold, it a one of the most popular playstation games and is very popular within the gaming community, basically just for the fact that you are spiderman.  Bloodborne is also a very popular playstation exclusive selling over 2 million copies and winning several awards, whilst being regarded as one of the greatest video games ever made!</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -65,6 +89,8 @@
                         <color key="backgroundColor" red="0.0022198712187251049" green="0.0" blue="0.80987197160720825" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
+                        <outlet property="gameOutlet" destination="Ww1-69-o7o" id="yuk-xT-eAw"/>
+                        <outlet property="gameView" destination="d10-pq-wME" id="DbK-RD-W8D"/>
                         <outlet property="personalComputerImage" destination="3TZ-mG-x5s" id="6if-0B-kAT"/>
                         <outlet property="playstationImage" destination="AF2-rN-S7Q" id="VGG-kt-d1C"/>
                         <outlet property="segmentOutlet" destination="oXz-Jr-L8Q" id="mnW-y5-BtC"/>
