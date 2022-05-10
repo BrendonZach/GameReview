@@ -114,8 +114,7 @@ class ViewController: UIViewController
             personalComputerImage.isHidden = true
         }
       
-        
-        
+
     }
     
     
